@@ -1,17 +1,10 @@
 package com.postjma.postjma.BlinkingAndroid;
 
 import android.annotation.SuppressLint;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.graphics.Canvas;
-import android.graphics.Color;
-import android.graphics.Paint;
 import android.graphics.drawable.Drawable;
-import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.os.Handler;
-import android.view.MotionEvent;
 import android.view.View;
 import android.widget.ImageView;
 
@@ -80,5 +73,7 @@ public class BlinkingAndroidActivity extends AppCompatActivity {
                 toggleAndroid();
             }
         });
+
+        mShowHideHandler.postDelayed(mShowHidePart2Runnable, UI_ANIMATION_DELAY);
     }
 }
