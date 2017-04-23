@@ -1,4 +1,4 @@
-package com.postjma.postjma.petdemo;
+package com.postjma.postjma.BlinkingAndroid;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

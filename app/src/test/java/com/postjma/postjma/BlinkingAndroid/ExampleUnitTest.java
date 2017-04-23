@@ -1,4 +1,4 @@
-package com.postjma.postjma.petdemo;
+package com.postjma.postjma.BlinkingAndroid;
 
 import org.junit.Test;
 
