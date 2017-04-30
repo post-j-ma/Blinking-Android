@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.jbrown105.petdemo", appContext.getPackageName());
+        assertEquals("com.postjma.postjma.BlinkingAndroid", appContext.getPackageName());
     }
 }
